@@ -1,7 +1,5 @@
 class ConfigParserService
 
-  config_hash = {}
-
   def initialize(filename)
     @filename = filename
     @config_hash = {}
